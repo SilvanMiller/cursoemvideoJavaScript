@@ -7,24 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Programa...</title>
 
+    <!-- inicio de CSS-->
     <style>
         body {
             background-color: rgb(35, 35, 87);
             color: white;
             font: normal 20px arial;
         }
+        
+        h1 {
+            color: rgb(140, 163, 7);
+        }
     </style>
 </head>
+
+<!-- inicio de HTML5-->
 
 <body>
     <h1>Olá, Mundo!</h1>
     <p>Me livando da maldição!!</p>
 
-
+    <!-- inicio do JAVASCRIPT-->
     <script>
-        window.alert('Olá, Mundo!! meu primeiro alerta pra você.')
-        window.confirm('Está gostando de JavaScript?')
-        window.prompt('Qual seu nome?, Obrigado!!')
+        var nome = window.prompt('Qual seu nome?, Obrigado!!')
+        alert('É um grande prazer ter você aqui, ' + nome + '!') //concatenaçãoou ligação
     </script>
 
 </body>
