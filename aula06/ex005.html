@@ -21,13 +21,30 @@
     <!--html-->
     <h1>Inicio dos estudos com DOM</h1>
     <p>aqui vai o resultado</p>
-    <p>Aprendendo a usra o <strong>DOM</strong> em Javascript</p>
-    <div>Clique em min</div>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <div id="msg">Clique em min</div>
 
     <script>
         //javaScript
-        var p1 = window.document.getElementsByTagName('p')[0]
-        window.document.write('esta escrito assim: ' + p1.innerHTML)
+        //window.document.write('Olá,Mundo!')
+        //window.document.write(window.document.charset) //UTF-8
+        //window.document.write(window.navigator.appName) //netscape
+        //window.document.write(window.document.URL) //http://127.0.0.1:5500/aula06/ex005.html
+        //var corpo = window.document.body
+        //corpo.style.background = 'black'
+        //var p1 = window.document.getElementsByTagName('p')[1]
+        //window.document.write(p1.innerText)//puxa o texto direto sem as filhas 
+        //window.document.write(p1.innerHTML) //puxa o texto se estiver formatado
+        //alert(p1.innerHTML)
+        //p1.style.color = 'blue'
+        //var div = window.document.getElementById('msg')
+        //div.style.background = 'green'
+        //div.innerText = 'Estou aquardando...'
+        //window.document.getElementById('msg').innerText = 'Ola!'
+        //var div = window.document.getElementById('msg')
+        //div.innerText = 'javaScript'
+        var div = window.document.querySelector('div#msg')
+        div.style.color = 'green'
     </script>
 
 </body>
