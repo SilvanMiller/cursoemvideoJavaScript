@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Silvan Miller">
+    <meta name="description" content="Site desenvolvido por Silvan Miller">
+    <meta name="keywords" content="esercicios de Javascript, js">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Meu Primeiro Programa...</title>
+
+    <style>
+        body {
+            background-color: rgb(35, 35, 87);
+            color: white;
+            font: normal 12pt arial;
+        }
+        
+        button {
+            padding: 30px;
+            font-size: 15pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Boas-Vindas</h1>
+    <button onclick="inicio()">inicio do Desafio</button>
+
+
+
+    <script>
+        function inicio() {
+            let nome = window.prompt('Qual seu nome?')
+            let idade = window.prompt(`Ola! ${nome}, qual a sua idade?`)
+            alert(`${nome}(${idade}), seja bem vindo`)
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
