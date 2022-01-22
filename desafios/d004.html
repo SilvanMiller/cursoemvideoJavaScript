@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Silvan Miller">
+    <meta name="description" content="Site desenvolvido por Silvan Miller">
+    <meta name="keywords" content="esercicios de Javascript, js">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Meu Primeiro Programa...</title>
+
+    <style>
+        body {
+            background-color: rgb(35, 35, 87);
+            color: white;
+            font: normal 12pt arial;
+        }
+        
+        button {
+            padding: 30px;
+            font-size: 15pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculando o troco</h1>
+    <button onclick="calcular()">Calcular</button>
+
+
+
+    <script>
+        function calcular() {
+            let nomeProd = window.prompt('Digite o nome do produto')
+            let valorProd = window.prompt(`Qual o valor do ${nomeProd.toUpperCase()}?`)
+            let pagamentoProd = window.prompt(`Digite o valor para pagar o ${nomeProd}`)
+            var trocoProd = (pagamentoProd - valorProd)
+            trocoProd.toLocaleString("pt-BR", {
+                style: "currency",
+                currency: "BRL"
+            })
+            alert(`Você comprou o produto ${nomeProd.toUpperCase()} por R$ ${valorProd}\n 
+            pagou o valor de R$ ${pagamentoProd}\n
+            e vai receber o valor de ${trocoProd}`)
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
