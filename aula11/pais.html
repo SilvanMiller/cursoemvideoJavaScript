@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileiro ou Estrangeiro</title>
+    <style>
+        body {
+            background-color: rgb(35, 35, 87);
+            color: white;
+            font: normal 20px arial;
+        }
+        
+        input {
+            font: normal 18pt arial;
+            width: 170px;
+        }
+        
+        #res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Qual pais você esta?</h1>
+    Eu hoje estou <input type="text" name="txtpais" id="txtpais"> <input type="button" value="eu sou?" onclick="euSou()">
+    <div id="res">
+        Como é bom viver aqui!!!
+    </div>
+
+    <script>
+        function euSou() {
+            var txtp = document.querySelector('input#txtpais')
+            var res = document.querySelector('div#res')
+            var onde = txtp.value
+            if (onde === 'Brasil') {
+                res.innerHTML = 'Você é brasileiro'
+            } else
+                res.innerHTML = 'Você é um estrangeiro'
+        }
+    </script>
+
+</body>
+
+</html>
