@@ -19,13 +19,7 @@ section {
 
 div {
     text-align: center;
-    padding: 8px;
-}
-
-#fotos img {
-    width: 220px;
-    height: 220px;
-    border-radius: 100px;
+    padding: 10px;
 }
 
 footer {

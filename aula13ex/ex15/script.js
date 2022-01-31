@@ -35,7 +35,7 @@ function verifica() {
             gênero = 'Mulher';
             if (idade >= 0 && idade < 10) {
                 //criança
-                img.setAttribute('src', 'adulto.jpg');
+                img.setAttribute('src', 'criancaF.jpg');
                 img.style.borderRadius = '120px';
             } else if (idade < 21) {
                 //jovem
@@ -48,7 +48,7 @@ function verifica() {
                 img.style.borderRadius = '120px';
             }
         }
-        res.innerHTML = `Detectamos ${gênero} com ${idade}`; //testando o codigo
+        res.innerHTML = `Detectamos ${gênero} com ${idade}\n`; //testando o codigo
         res.appendChild(img);
     }
 
