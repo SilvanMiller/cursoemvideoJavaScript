@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(131, 131, 255);
+    font: normal 18pt arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
+}
+
+.dados {
+    width: 100px;
+    font: normal 16pt arial;
+}
+
+.btn {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 115px;
+    font: normal 18pt arial;
+}
+
+.btn:hover {
+    background-color: rgb(170, 248, 69);
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
