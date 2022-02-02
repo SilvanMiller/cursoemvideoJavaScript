@@ -12,16 +12,17 @@ function contar() {
         let f = Number(fim.value)
         let p = Number(passo.value)
         if (i < f) {
+            //contagem crescente
             for (let c = i; c <= f; c += p) {
                 resp.innerHTML += `${c}, `;
             }
-            resp.innerHTML += `\u{1F3C1}`
         } else {
+            //contagem decrescente 
             for (let c = i; c >= f; c -= p) {
                 resp.innerHTML += `${c}, `;
             }
-            resp.innerHTML += ` \u{1F3C1}`
         }
+        resp.innerHTML += `\u{1F3C1}`
 
     }
 }
