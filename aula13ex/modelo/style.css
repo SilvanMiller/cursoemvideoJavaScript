@@ -22,7 +22,7 @@ section {
     font: normal 16pt arial;
 }
 
-.btn {
+.btao {
     width: 140px;
     margin: 5px;
     padding: 5px;
@@ -30,10 +30,12 @@ section {
     font: normal 14pt arial;
 }
 
-.tabAparencia {
+
+/*.tabAparencia {
     text-align: center;
+    font: 14pt arial;
     padding: 8px;
-}
+}*/
 
 footer {
     color: #fff;
