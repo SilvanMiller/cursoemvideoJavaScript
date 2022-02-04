@@ -17,24 +17,6 @@ section {
     box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
 }
 
-.dados {
-    width: 100px;
-    font: normal 16pt arial;
-}
-
-.btn {
-    width: 140px;
-    margin: 5px;
-    padding: 5px;
-    background-color: rgb(170, 248, 69);
-    font: normal 14pt arial;
-}
-
-.tabAparencia {
-    text-align: center;
-    padding: 8px;
-}
-
 footer {
     color: #fff;
     text-align: center;
