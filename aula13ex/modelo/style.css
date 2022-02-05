@@ -17,25 +17,6 @@ section {
     box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
 }
 
-.dados {
-    width: 100px;
-    font: normal 16pt arial;
-}
-
-.btao {
-    width: 140px;
-    margin: 5px;
-    padding: 5px;
-    background-color: rgba(13, 233, 24, 0.904);
-    font: normal 14pt arial;
-}
-
-.tabAparencia {
-    text-align: auto;
-    font: 16pt arial;
-    padding: 15px;
-}
-
 footer {
     color: #fff;
     text-align: center;
