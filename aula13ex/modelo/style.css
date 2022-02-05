@@ -26,16 +26,15 @@ section {
     width: 140px;
     margin: 5px;
     padding: 5px;
-    background-color: rgb(170, 248, 69);
+    background-color: rgba(13, 233, 24, 0.904);
     font: normal 14pt arial;
 }
 
-
-/*.tabAparencia {
-    text-align: center;
-    font: 14pt arial;
-    padding: 8px;
-}*/
+.tabAparencia {
+    text-align: auto;
+    font: 16pt arial;
+    padding: 15px;
+}
 
 footer {
     color: #fff;
