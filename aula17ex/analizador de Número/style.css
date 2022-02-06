@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(131, 131, 255);
+    font: normal 15pt arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
+}
+
+.dados {
+    width: 100px;
+    font: normal 16pt arial;
+}
+
+.btao {
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(13, 233, 24, 0.904);
+    font: normal 14pt arial;
+}
+
+select {
+    width: 220pt;
+    text-align: auto;
+    font: 16pt arial;
+    padding: 15px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
