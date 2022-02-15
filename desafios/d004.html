@@ -35,7 +35,7 @@
             let nomeProd = window.prompt('Digite o nome do produto')
             let valorProd = window.prompt(`Qual o valor do ${nomeProd.toUpperCase()}?`)
             let pagamentoProd = window.prompt(`Digite o valor para pagar o ${nomeProd}`)
-            var trocoProd = (pagamentoProd - valorProd)
+            var trocoProd = Number(pagamentoProd - valorProd)
             trocoProd.toLocaleString("pt-BR", {
                 style: "currency",
                 currency: "BRL"

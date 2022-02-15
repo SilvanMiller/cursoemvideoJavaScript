@@ -7,13 +7,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Medidas </title>
     <style>
-
+        body {
+            background-color: rgb(131, 131, 255);
+            font: normal 18pt arial;
+        }
+        
+        header {
+            color: #fff;
+            text-align: center;
+        }
+        
+        section {
+            background-color: bisque;
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
+        }
+        
+        input {
+            width: 100px;
+            font: normal 16pt arial;
+        }
+        
+        .btn {
+            padding: auto;
+            background-color: greenyellow;
+            color: red;
+            width: 90px;
+            height: 30px;
+            font: 13pt arial;
+        }
+        
+        footer {
+            color: #fff;
+            text-align: center;
+            font-style: italic;
+        }
     </style>
 </head>
 
 <body>
+    <header>
+        <h1>Conversor de Medidas</h1>
+    </header>
+
+    <section>
+        <div>
+            Digite sua distância:
+            <input type="number" name="txtm" id="txtm">
+            <input class="btn" type="button" value="Converter" onclick="medir()">
+
+        </div>
+
+        <div id="resp">
+            Preparando a conversão... <br>
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy;Silvan Miller</p>
+    </footer>
 
 
+    <script>
+        function medir() {
+            let m = window.prompt(`Digite uma distancia em metros (m)?`);
+            let dist_num = (m);
+
+            let km = Number(dist_num / 1000);
+            let hm = Number(dist_num / 100);
+
+
+            resp.innerHTML = `Você digitou ${dist_num}`;
+            resp.innerHTML += `Sua distancia em quilômetros ${km}km`;
+            resp.innerHTML += `Sua distancia em hectômetro ${hm}hm`;
+        }
+    </script>
 </body>
 
 </html>
