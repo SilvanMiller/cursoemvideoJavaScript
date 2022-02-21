@@ -28,4 +28,8 @@ var nome = prompt("Bom dia! qual é o seu nome?");
 var alturaUsuario = prompt(nome + " Olá! qual é a sua altura?");
 var pesoUsuario = prompt("me diga seu peso, " + nome + " por favor!");
 var imcUsuario = calculaIMC(alturaUsuario, pesoUsuario);
-mostra(nome + ", seu imc é " + Math.round(imcUsuario));
+if (imcUsuario >= 18.5 && imcUsuario <= 35) {
+    mostra(nome + ", seu IMC esta entre os dois limites,");
+    mostra("seu IMC é:" + (Math.round(imcUsuario)));
+}
+//mostra(nome + ", seu imc é " + Math.round(imcUsuario));
